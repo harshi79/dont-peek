@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <radialGradient id="bloodGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ff2a4b" stop-opacity="1" />
+      <stop offset="60%" stop-color="#b81432" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#3a060e" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  <rect width="100" height="100" rx="22" fill="#070506" />
+  <circle cx="50" cy="50" r="40" fill="url(#bloodGlow)" opacity="0.35" />
+  <circle cx="50" cy="50" r="26" fill="#e61938" />
+  <circle cx="62" cy="42" r="22" fill="#070506" />
+</svg>
